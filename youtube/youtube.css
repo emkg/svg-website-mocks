@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+
+svg {
+  fill: #606060;
+}
+
+svg#sign-in-profile-icon {
+  fill: #065fd4;
+}
+
+text {
+  font-family: "Roboto";
+  font-size: 10px;
+}
+
+text:hover {
+  cursor: pointer;
+}
+
+text.h2 {
+  font-size: 20px;
+  font-weight: bold;
+  fill: #000;
+}
+
+text#search {
+  font-size: 16px;
+}
+
+text#sign-in {
+  font-weight: bold;
+  letter-spacing: 0.007px;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+rect#sign-in-button {
+  border-radius: 2px;
+}
+
+rect#background {
+  height: 100%;
+  width: 100%;
+  fill: black;
+}
+
+rect#sidebar {
+  height: 100%;
+}
+
+rect#header-bar {
+  width: 100%;
+}
+
+rect.simple-endpoint:hover {
+  fill: #f8f8f8;
+}
+
+.simple-endpoint-icon-home {
+  fill: #f00;
+}
+
+.click-me {
+  cursor: pointer;
+}
+
+.video {
+  fill: #606060;
+}
+
+.animate {
+  animation: shimmer 2s infinite;
+  fill: linear-gradient(to right, #606060 36%, #f8f8f8 25%);
+  background-size: 1000px 100%;
+}
